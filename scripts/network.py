@@ -1,4 +1,3 @@
-
 import random
 import time
 import numpy as np
@@ -15,6 +14,7 @@ def dsigmoid(z):
 
 
 class Network:
+    '''A class for dense feedforward neural networks.'''
     def __init__(self, sizes):
         self.num_layers = len(sizes)
         self.sizes = sizes
